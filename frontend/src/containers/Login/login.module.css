@@ -1,0 +1,48 @@
+.loginPage {
+    border: 6px solid #949599;
+    text-align: center;
+}
+
+.loginBox{
+    border: 6px solid #949599;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+}
+
+.inputBox{
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    border: 2px solid #000000;
+    width: 70%;
+}
+
+.btnSubmit{
+    display: inline-block;
+    margin: 1% auto;
+    height: 50px;
+    width: 300px;
+    background: rgb(2,0,36);
+    background: #177549;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.btnGoogle{
+    display: inline-block;
+    margin: 1% auto;
+    height: 50px;
+    width: 300px;
+    background: rgb(2,0,36);
+    background: #DB4437;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.btnSubmit:hover, .btnGoogle:hover{
+    cursor: pointer;
+}
